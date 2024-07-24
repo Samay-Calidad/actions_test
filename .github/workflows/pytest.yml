@@ -21,3 +21,7 @@ jobs:
     - name: Running Tests
       run: |
         python -m pytest -s -v 
+    - name: publish report
+      uses: uses: dariocurr/pytest-summary@main
+      with:
+      paths: test_*.py
