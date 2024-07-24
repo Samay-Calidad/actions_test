@@ -24,4 +24,4 @@ jobs:
     - name: publish report
       uses: dariocurr/pytest-summary@main
       with:
-      paths: test_*.py
+        paths: test_*.py
